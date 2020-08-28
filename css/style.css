@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Codystar:300&display=swap');
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+header {
+	width: 100%;
+	height: 600px;
+	background-image: url('https://unsplash.it/1600/600');
+}
+#header-nav {
+	background-color: rgba(41, 43, 66, .9);
+	opacity: .9;
+	border-radius: 0;
+	border-bottom:3px solid #F0F716;
+}
+#logo-img {
+	background-image: url('../images/logo1.png');
+	background-size: cover;
+	height: 60px;
+	width: 140px;
+	margin: 5px 0px 0px 40px;
+}
+
+#nav-list {
+	display: inline-flex;
+}
+#nav-list li {
+	height: 100%;
+	margin-top: 10px;
+}
+#nav-list a:hover, a:active, a:focus, a:visited {
+	color: #00fff2;
+	border-left: 2px solid #00fff2;
+	border-right: 2px solid #00fff2;
+	border-radius: 7px;
+}
+#nav-list a {
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: rgba(41, 43, 66, .9);
+	transition: .2s;
+}
+
+#anim > h1 {
+	margin-top: 200px;
+	font-size: calc(5vw + 1.5rem);
+  text-align: center;
+  font-family: 'Codystar';
+   font-weight: bolder;
+  /*-webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;*/
+  /*animation: glow 2s ease-in-out infinite alternate;*/
+  color: white;
+  text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
+}
+
+
+
+@media(max-width: 768px) {
+	#logo-img {
+		float: left;
+		width: 100px;
+		height: 40px;
+		margin-left: 10px;
+	}
+}
+
+#offer > h2 {
+	font-family: 'Merriweather', serif;
+	font-size: 44px;
+	font-weight: bold;
+
+}
+#hr {
+	height: 1px;
+	width: 50px;
+	margin: auto;
+	color: yellow;
+	border:2px solid #faa61a;
+	background-color: #faa61a;
+	text-align: center;
+	margin-top: 10px;
+}
+
+
+
